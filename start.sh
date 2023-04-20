@@ -1,3 +1,3 @@
 #!/bin/bash
-git clone $REPO_URL ok && cd ok && pip3 install -U -r requirements.txt
-$START_CMD
+git clone https://github.com/mr-coder-v4/-V4 ok && cd ok && pip3 install -U -r requirements.txt
+python -m main
